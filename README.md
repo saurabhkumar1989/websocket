@@ -4,3 +4,5 @@
 
   - Redis layer configured
   - different worker in other project app sensordata, run it on different console
+  - readSensor.py send data to group (inside sensorworker)
+  -
