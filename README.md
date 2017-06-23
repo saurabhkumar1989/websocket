@@ -1,8 +1,17 @@
-# Websocket data pull and push
+# Realtime (almost!) web app
+Real time data display using web socket and django channels.
 
->Use basic websocket without any authentication 
+How to run it:
 
-  - Redis layer configured
-  - different worker in other project app sensordata, run it on different console
-  - readSensor.py send data to group (inside sensorworker)
-  -
+ * Run server (with or with out worker) more details [here](https://channels.readthedocs.io/en/stable/getting-started.html)
+ * Run another worker for sensor data and enjoy the show
+
+Dependencies
+
+
+ * Django
+ * python
+ * channels
+ * Reddis backend
+ * Celery
+
